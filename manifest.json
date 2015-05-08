@@ -1,0 +1,25 @@
+{
+	"manifest_version":2,
+	
+	"name":"Facebook-message",
+	"description":"Facebook-message toolkit",
+	"background":{
+		"scripts":["background.js"]
+	},
+	"version":"1.3",
+	"browser_action":{
+		"default_icon" : "icon.png",
+		"default_popup":"index.html"
+	},
+	"icons":{
+		"64":"icon.png",
+		"32":"icon.png",
+		"16":"icon.png",
+		"128":"icon.png"
+	},
+	"permissions":[
+		"notifications"
+
+	]
+
+}
